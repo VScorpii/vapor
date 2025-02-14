@@ -5,7 +5,9 @@ const styleBuilder = () => {
         footer : require('../config/footer.json'),
         header : require('../config/header.json')
     };
-    
+    const stylesheetJSONToDOMCSS = (stylesheetJSON) => {
+        //...
+    }
 };
 
 export default styleBuilder;
