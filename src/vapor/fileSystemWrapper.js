@@ -12,7 +12,7 @@ const fileSystemWrapper = () => {
     };
     
     const checkFileSystem = () => {
-        let allPaths = requiredList["directories"].concat(requiredList["files"]);
+        let allPaths = dir.requiredList["directories"].concat(dir.requiredList["files"]);
         let errCheckout = 0;
         allPaths.forEach( (path) => {
             if ( !fs.existsSync(path) ) {
