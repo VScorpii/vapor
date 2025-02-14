@@ -1,0 +1,17 @@
+{
+    "required_directories": [
+        "./assets/",
+        "./pages/",
+        "./static/",
+        "./config/",
+        "./config/styles/"
+    ],
+    "required_files": [
+        "./config/styles/colors.json",
+        "./config/fonts.json",
+        "./config/footer.json",
+        "./config/header.json",
+        "./pages/main.md"
+    ]
+    
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vapor",
+  "version": "1.0.0",
+  "description": "Gerador de páginas estáticas conforme arquivos markdown organizados de forma hierarquica, suporta estilo customizado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "vapor": "nodejs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VScorpii/vapor.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "I. R. (Scorpii)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/VScorpii/vapor/issues"
+  },
+  "homepage": "https://github.com/VScorpii/vapor#readme",
+  "dependencies": {
+    "marked": "^15.0.7"
+  }
+}
