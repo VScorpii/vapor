@@ -1,0 +1,16 @@
+{
+    "directories": [
+        "../assets/",
+        "../pages/",
+        "../static/",
+        "../config/"
+    ],
+    "files": [
+        "../config/colors.json",
+        "../config/fonts.json",
+        "../config/footer.json",
+        "../config/header.json",
+        "../pages/main.md"
+    ]
+    
+}

@@ -4,8 +4,8 @@
   "description": "Gerador de páginas estáticas conforme arquivos markdown organizados de forma hierarquica, suporta estilo customizado.",
   "main": "index.js",
   "scripts": {
-    "test": "nodejs ./index.js --verbose",
-    "vapor": "nodejs ./index.js"
+    "test": "node ./index.js --verbose",
+    "run": "node ./index.js"
   },
   "repository": {
     "type": "git",
