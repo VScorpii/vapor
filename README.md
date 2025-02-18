@@ -2,6 +2,8 @@
 
 Gerador de páginas estáticas conforme arquivos markdown organizados de forma hierarquica, suporta estilo customizado.
 
+#### Não está funcionando ainda, em fase de desenvolvimento!
+
 ### Estrutura
 
 - /config/ -> Arquivos JSON para o conteúdo de alguns elementos da página
@@ -31,11 +33,10 @@ Gerador de páginas estáticas conforme arquivos markdown organizados de forma h
 
 ### Como usar?
 
-1. Configure as páginas que devem estar no header em /config/header.json e no footer em /config/footer.json
-2. Configure as fontes que devem estar em /config/fonts.json
-3. Configure as cores e estilo em /config/styles/colors.json
+1. Defina o estilo em /stylesheet/
+2. Defina a configuração do header e footer em /config/
 4. Modifique o main.md em /pages/
-5. Coloque as imagens que irá usar em /assets/
+5. Coloque as imagens que irá usar em /pages/assets/
 6. Coloque os seus arquivos em /pages/, se necessário crie pastas novas e coloque arquivos markdown dentro.
 7. node ./index.js
 
