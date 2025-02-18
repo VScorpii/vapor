@@ -4,14 +4,20 @@ Gerador de páginas estáticas conforme arquivos markdown organizados de forma h
 
 ### Estrutura
 
-- /config/ -> configuração
-  - /config/fonts.json -> Configurações de fontes usadas.
-  - /config/footer.json -> Configuração dos ítens que deve ter no footer.
-  - /config/header.json. ->  Configuração dos ítens que deve ter no header.
-  - /config/colors.json -> cores
+- /config/ -> Arquivos JSON para o conteúdo de alguns elementos da página
+  - /config/footer.json
+  - /config/header.json
+- /stylesheet/ -> Arquivos CSS
+  - /stylesheet/text.css -> CSS das fontes e estilos de texto.
+  - /stylesheet/footer.css -> CSS dos itens que deve ter no footer.
+  - /stylesheet/header.css. -> CSS dos itens que deve ter no header.
+  - /stylesheet/colors.css -> CSS com as cores.
+  - /stylesheet/content.css -> CSS do conteúdo das páginas.
+  - /stylesheet/media.css -> CSS para mídia.
+  - /stylesheet/style.css -> Junção de todos os CSS.
 - /pages/ -> Páginas.
   - /pages/main.md -> index de seu projeto.
-- /assets/ -> Mídia para o seu projeto.
+- /pages/assets/ -> Mídia para o seu projeto.
 - /static/ -> Página final em HTML e CSS estático.
 - /vapor/ -> Arquivos JavaScript para o funcionamento inteiro do Vapor.
 - /vapor/fileSystemWrapper.js -> Script para as operações envolvendo sistemas de arquivos.

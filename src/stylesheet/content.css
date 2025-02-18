@@ -1,0 +1,9 @@
+@import url("./colors.css");
+.content {
+    background-color: var(--content-background-color);
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: start;
+    justify-content: center;
+}

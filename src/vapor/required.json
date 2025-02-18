@@ -1,16 +1,22 @@
 {
     "directories": [
-        "../assets/",
         "../pages/",
+        "../pages/assets/",
         "../static/",
+        "../stylesheet/",
         "../config/"
     ],
     "files": [
-        "../config/colors.json",
-        "../config/fonts.json",
-        "../config/footer.json",
+        "../stylesheet/colors.css",
+        "../stylesheet/content.css",
+        "../stylesheet/text.css",
+        "../stylesheet/footer.css",
+        "../stylesheet/header.css",
+        "../stylesheet/media.css",
+        "../stylesheet/style.css",
+        "../pages/main.md",
         "../config/header.json",
-        "../pages/main.md"
+        "../config/footer.json"
     ]
     
 }
